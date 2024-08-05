@@ -7,6 +7,7 @@ with app.app_context():
 
     Plant.query.delete()
 
+   
     aloe = Plant(
         id=1,
         name="Aloe",
